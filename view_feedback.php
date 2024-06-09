@@ -73,8 +73,8 @@ $stmt->close();
                     <p><?= $feedback["feedback"] ?></p>
                     <p class="text-sm text-gray-500 mt-2">Submitted on <?= $feedback["created_at"] ?></p>
                 </div>
-            <?php endforeach; ?>
-        <?php else: ?>
+            <?php endforeach;?>
+        <?php else:?>
             <p>No feedback submitted yet.</p>
         <?php endif; ?>
         <a href="index.php" class="btn mt-4">Go Back</a>
